@@ -1,0 +1,30 @@
+<!-- <p>cart works!</p>
+  <div class="card" *ngIf="false"> 
+ <h4> yourcart is empty</h4>
+
+  </div> -->
+<!-- 
+  <ng-container *ngIf="true"> -->
+    <div class="three">
+ <div  class="one" *ngFor="let items of cart" >
+    <img [src]= "items.image" width="150px" height="200px">
+    <h2> {{items.Name}}</h2>
+    <h3> INR {{items.price}}</h3>
+    <button (click)="decreaseCount()">-</button> 
+    <span>{{count}}</span>
+    <button (click)="increaseCount()">+</button><br>
+    <div class="two">
+  
+   <button  class="five" (click)="orderNow()">OrderNow</button><br>
+   <button class="five"  (click)="deleteProduct(items.Name)">Delete</button>
+    <p>TotalPrice: INR{{calculateTotalPrice(items)}}</p>
+     <hr>
+     <p>Total  Price Of All Products INR{{calculateOverallPrice()}}</p>
+         
+
+
+  </div>
+  
+ </div>
+
+</div>

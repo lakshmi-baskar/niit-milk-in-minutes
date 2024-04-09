@@ -1,0 +1,20 @@
+<mat-toolbar style="background-color: aqua;">
+    <img [src] = "image"  alt="imagenotfound" width="100px"  height="100px">
+<h1 class="hello">MILK IN MINUTES</h1>
+<br>
+<h6 class="hello"> MADE IN INDIA</h6>
+<a class="cart" routerLink="/cart"> <mat-icon>shopping_cart</mat-icon></a>
+  
+
+ <div *ngIf="isLoggedIn(); else loginLink">
+        <button class="six" mat-raised-button color="warn" (click)="logout()">Logout</button>
+      </div>
+
+      <ng-template #loginLink>
+        <div>
+          <a routerLink="/login">Login</a>
+      </div>
+      </ng-template>
+    
+  
+</mat-toolbar>

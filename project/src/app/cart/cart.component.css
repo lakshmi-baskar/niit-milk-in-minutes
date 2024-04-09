@@ -1,0 +1,72 @@
+/* Styles for cart items */
+.three {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .one {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+  }
+  
+  .one img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Styles for buttons */
+  button {
+    background-color: white;
+    color: grey;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: whitesmoke;
+  }
+  
+  /* Styles for overall price */
+  .two {
+    margin-top: 10px;
+  }
+  
+  /* Styles for total price */
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Styles for total price separator */
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Styles for empty cart message */
+  .card {
+    display: none;
+  }
+  
+  .card h4 {
+    color: #f00; /* Red color for emphasis */
+  }
+  
+  /* Uncomment if ngIf is true */
+  /*
+  .ng-container {
+    display: block;
+  }
+  */
+  

@@ -1,0 +1,26 @@
+.two{
+    
+    
+     width:300px;
+     display:flex;
+}
+.one{
+    display:inline-flex;
+    margin-right:70px;
+    margin-top:50px;
+    margin-left: 50px;
+}
+img{
+    width:300px;
+}
+.four{
+    margin-left: 50px;
+}
+.two{
+    background-image:"assets/projectimages/two.jpg";
+}
+
+button {
+
+    margin-left: 200px;
+}

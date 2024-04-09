@@ -1,0 +1,39 @@
+{
+    "products":[
+        {
+            "id":1,
+            "Name":"Milk",
+            "price":50,
+             "image":"assets/projectimages/milk.jpg"
+        },
+        {
+            "id":2,
+            "Name":"Butter",
+            "price":90,
+            "image":"assets/projectimages/butter.jpg"
+        },
+        { "id":3,
+        "Name":"Cheese",
+        "price":80,
+        "image":"assets/projectimages/cheese.jpg"
+},
+     {
+        "id":4,
+        "Name":"Paneer",
+        "price":120,
+        "image":"assets/projectimages/cootagecheese.jpg"
+     },
+   { 
+    
+   "id":5,
+   "Name":"Ice Cream",
+   "price":110,
+   "image":"assets/projectimages/Icecream.jpg"
+       }
+    
+
+
+
+
+    ]
+}

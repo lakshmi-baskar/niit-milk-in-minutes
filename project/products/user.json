@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "0"
+    },
+  
+    {
+      "id": "9bac",
+      "firstName": "Lakshmi",
+      "lastName": "Baskar",
+      "email": "lakshmi_baskar@hotmail.com",
+      "address": "N0.29 Dharma Rayan street,suval pet,Arakkonam",
+      "password": "12345678"
+    },
+    {
+      "id": "3842",
+      "firstName": "Lakshmi",
+      "lastName": "Baskar",
+      "email": "lakshmi_baskar@hotmail.com",
+      "address": "N0.29 Dharma Rayan street,suval pet,Arakkonam",
+      "password": "12345678"
+    },
+    {
+      "id": "4f13",
+      "firstName": "Lakshmi",
+      "lastName": "Baskar",
+      "email": "lakshmi_baskar@hotmail.com",
+      "address": "N0.29 Dharma Rayan street,suval pet,Arakkonam",
+      "password": "12345678"
+    }
+  ]
+}

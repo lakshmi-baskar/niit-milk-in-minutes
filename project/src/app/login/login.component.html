@@ -1,0 +1,83 @@
+<!-- <div>
+    <label>Name: </label>
+    <input [(ngModel)]="loginDetails.name" type="text" />
+  </div> -->
+  <!-- <div>
+    <label>Email: </label>
+    <input [(ngModel)]="loginDetails.email" type="email" />
+  </div>
+  <div>
+     <label>Password: </label>
+    <input [(ngModel)]="loginDetails.password" type="password" />
+  </div>
+  <button (click)="login()">Login</button> -->
+  <!-- <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="loginName">Name: </label>
+      <input id="loginName" name="loginName" [(ngModel)]="LoginData.name" required />
+    </div>
+  
+    <div>
+      <label for="loginEmail">Email: </label>
+      <input id="loginEmail" name="loginEmail" [(ngModel)]="LoginData.email" required />
+    </div>
+  
+    <div>
+      <label for="loginPassword">Password: </label>
+      <input id="loginPassword" name="loginPassword" [(ngModel)]="LoginData.password" type="password" required />
+    </div>
+  
+    <button type="submit">Login</button>
+  </form> -->
+  <!-- <form #signupForm="ngForm" (ngSubmit)="onSubmit(signupForm)">
+    <div>
+      <label for="id">ID: </label>
+      <input id="id" name="id" [(ngModel)]="signupData.id" required />
+    </div>
+  
+    <div>
+      <label for="name">Name: </label>
+      <input id="name" name="name" [(ngModel)]="signupData.name" required />
+    </div>
+  
+    <div>
+      <label for="password">Password: </label>
+      <input id="password" name="password" [(ngModel)]="signupData.password" type="password" required />
+    </div>
+  
+    <div>
+      <label for="confirmPassword">Confirm Password: </label>
+      <input id="confirmPassword" name="confirmPassword" [(ngModel)]="signupData.confirmPassword" type="password" required />
+      <div *ngIf="signupData.password !== signupData.confirmPassword">
+        Password and Confirm Password do not match.
+      </div>
+    </div>
+  
+    <button type="submit">Submit</button>
+  </form>
+
+
+
+  <a routerLink="">New user?click To signUp</a> --> -->
+  <div class="one">
+  <form #loginForm="ngForm" (ngSubmit)="submitForm(loginForm)">
+    <mat-form-field appearance="fill">
+      <mat-label>First Name</mat-label>
+      <input matInput name="firstName" [(ngModel)]="loginData.firstName" required>
+    </mat-form-field><br>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput type="email" name="email" [(ngModel)]="loginData.email" required>
+    </mat-form-field><br>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" name="password" [(ngModel)]="loginData.password" required>
+    </mat-form-field><br>
+    <button mat-raised-button color="warn" type="button" (click)="resetForm(loginForm)">Reset</button>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Login</button>
+  </form>
+   <a routerLink="/signup"> New User please register it</a>
+  </div>

@@ -1,0 +1,16 @@
+ <div class="one">
+ <div class="two">
+  <mat-card  class="four">
+ <img mat-card-image  [src]= "product.image" width="150px" height="200px">
+  <mat-card-content>
+ <h2> {{product.Name}}</h2>
+   <h3> INR {{product.price}}</h3>
+  </mat-card-content>
+  <mat-card-actions>
+   <button (click)="addToCart(product)">addTocart </button>
+   
+</mat-card-actions>
+ 
+  </mat-card>
+</div>
+</div>

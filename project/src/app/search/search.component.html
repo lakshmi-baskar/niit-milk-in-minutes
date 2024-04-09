@@ -1,0 +1,18 @@
+<!-- <mat-form-field> 
+    <input matInput type="text" name="searchquery" id="searchquery">
+
+</mat-form-field>
+<button mat-icon-button  class="">
+    <mat-icon>search</mat-icon>
+</button> -->
+
+<!-- <input type="text" placeholer = "search"  name="productName" [(ngModel)]="productName">
+ <button (click)="search()" >search</button> -->
+ <div class="search-box">
+     <mat-form-field appearance="fill">
+    <input class="one" matInput type="text" placeholder="Enter productName " name="productName" 
+    [(ngModel)]="productName">
+  </mat-form-field>
+    <button mat-icon-button (click)="search()"> <mat-icon>search</mat-icon></button>
+    
+</div>

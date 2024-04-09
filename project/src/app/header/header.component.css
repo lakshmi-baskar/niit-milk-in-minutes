@@ -1,0 +1,24 @@
+a{
+ display:flex;
+ margin-left:50px;
+}
+mat-toolbar{
+     height:200px;
+     width:100%;
+}
+.six{
+     margin-left:50px;
+}
+.hello{
+     margin-left:30px;
+     color:black ;
+
+}
+
+.cart {
+     margin-left: 700px;
+}
+
+mat-icon{
+     font-size:28px;
+}
